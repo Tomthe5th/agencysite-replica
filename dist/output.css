@@ -663,18 +663,6 @@ video {
   height: 380px;
 }
 
-.h-\[30px\]{
-  height: 30px;
-}
-
-.h-\[30rem\]{
-  height: 30rem;
-}
-
-.h-\[35rem\]{
-  height: 35rem;
-}
-
 .min-h-\[1rem\]{
   min-height: 1rem;
 }
