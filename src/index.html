@@ -1,0 +1,484 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="/dist/output.css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css"
+		integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+	<header class="bg-[#FFBC00]  lg:px-10">
+		<nav class="relative nav transition-all">
+			<!-- nav-lg -->
+			<div class="container mx-auto flex justify-between items-center py-8  ">
+				<div class="relative left-0 ">
+					<img class="w-48"
+						src="https://uploads-ssl.webflow.com/60f35132d5febb6f03ec9d7a/637a3904e86a45e79e450a65_COCOCART_WORDMARK_BLACKANDWHITE.svg"
+						alt="" />
+				</div>
+
+
+
+				<ul class="hidden  lg:flex items-center justify-between gap-2 ">
+					<li><a class="nav-link" href="#">Home</a></li>
+					<li><a class="nav-link" href="#">Resources</a></li>
+					<li>
+						<a class="nav-link bg-yellow-500" href="#">We are hiring!</a>
+					</li>
+					<div class="btn-wrapper">
+						<button class="btn">Log in</button>
+					</div>
+				</ul>
+			</div>
+
+
+			<!-- nav-mobile -->
+			<!-- hamburger menu -->
+			<button
+				class="burger bg-white border-black border-[0.2rem] rounded-2xl py-4 px-6 lg:hidden absolute right-6 top-2  min-h-[1rem] z-20  transition-all">
+				<i class="fa-solid fa-bars text-2xl "></i>
+			</button>
+			<!-- drop down menu -->
+			<div
+				class="absolute left-0 top-full w-full z-10 h-0 overflow-hidden bg-white dropdown transition-all lg:hidden">
+
+				<ul class="w-full py-6 px-8 min-h-[24rem] text-2xl font-semibold space-y-12">
+					<li><a class="" href="#">Home</a></li>
+					<li><a class="" href="#">Resources</a></li>
+					<li>
+						<a class="" href="#">We are hiring!</a>
+					</li>
+					<li>
+						<a class="text-3xl font-bold" href="#">Log in to dashboard</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main class="">
+		<!-- hero section -->
+		<section class="bg-[#FFBC00] px-4  hero-section sm:px-20">
+			<div class="container mx-auto flex">
+				<!-- left -->
+				<div class="space-y-8 flex flex-grow flex-col justify-center items-center sm:flex justify-items-start">
+					<h1 class="text-4xl lg:text-7xl  text-center font-bold  mt-12 lg:h1 lg:text-left ">
+						Create a simple, beautiful store <br />
+						in minutes.
+					</h1>
+					<p class="text-xl font-semibold text-center sm:text-5xl lg:text-left">no code,no app required</p>
+					<div class="btn-wrapper w-fit ">
+						<button
+							class="p-4 font-bold uppercase bg-white border-[2px] border-black rounded-lg text-zinc-900 text-sm  sm:btn ">
+							start my website-its free!
+						</button>
+					</div>
+					<div class="text-3xl">
+						<i class="fa-regular fa-star" style="color: #000000"></i>
+						<i class="fa-regular fa-star" style="color: #000000"></i>
+						<i class="fa-regular fa-star" style="color: #000000"></i>
+						<i class="fa-regular fa-star" style="color: #000000"></i>
+						<i class="fa-regular fa-star" style="color: #000000"></i>
+						<p class="text-sm">Loved by 30,000+ businesses</p>
+					</div>
+				</div>
+				<!-- right -->
+				<div class="p-2  hidden lg:block lg:w-2/5 " data-aos="zoom-in">
+					<img src="https://uploads-ssl.webflow.com/60f35132d5febb6f03ec9d7a/60fc05b036a77a95a30ed20b_hero-video.gif"
+						alt="" />
+				</div>
+
+			</div>
+		</section>
+
+		<section class="mt-56 ">
+			<div class="container mx-auto flex flex-col max-w-3xl items-center justify-center gap-4">
+				<h2 class="text-3xl font-bold lg:h2 text-center">
+					Cococart is made
+					for local
+					businesses.
+				</h2>
+				<p class="text-xl font-semibold text-center">
+					We're on a mission to transform independent businesses
+					to accept online orders. Cococart empowers small
+					businesses to manage their own sales without apps or
+					marketplaces that charge unsustainable fees and
+					commissions.
+				</p>
+				<div class="sub-btn-wrapper">
+					<button class="sub-btn max-w-[10rem]">
+						See Example
+					</button>
+				</div>
+				<!-- partners -->
+				<!-- <div
+						class="flex flex-col w-[60rem] gap-4 justify-center items-center"
+					>
+						<div class="grid grid-cols-4 grid-rows-2 gap-4">
+							<img
+								class="opacity-30 hover:opacity-80 object-cover"
+								src="../images/motherdough2.png"
+								alt=""
+							/>
+							<img
+								class="opacity-30 hover:opacity-80 object-cover h-8 mx-auto"
+								src="../images/bakedarea.png"
+								alt=""
+							/>
+							<img
+								class="opacity-30 hover:opacity-80 h-12 object-cover mx-auto"
+								src="../images/mochata2.png"
+								alt=""
+							/>
+							<img
+								class="opacity-30 hover:opacity-80 h-12 object-cover"
+								src="../images/theobroma2.png"
+								alt=""
+							/>
+							<img
+								class="opacity-30 hover:opacity-80 object-cover h-14 mx-auto"
+								src="../images/indocin.png"
+								alt=""
+							/>
+							<img
+								class="opacity-30 hover:opacity-80 object-cover h-14 mx-auto"
+								src="../images/valv.png"
+								alt=""
+							/>
+							<img
+								class="opacity-30 hover:opacity-80 object-cover h-10 mx-auto"
+								src="../images/thor2.png"
+								alt=""
+							/>
+							<img
+								class="opacity-30 hover:opacity-80 object-cover h-7"
+								src="../images/yc.png"
+								alt=""
+							/>
+						</div>
+						<div class="flex gap-4 justify-evenly"></div>
+					</div> -->
+
+				<div class="flex flex-wrap mt-8 gap-8 mx-auto max-w-3xl">
+					<img class="w-40 object-contain opacity-30 hover:opacity-80" src="../businesses/1.png" alt="" />
+					<img class="w-40 object-contain opacity-30 hover:opacity-80" src="../businesses/2.png" alt="" />
+					<img class="w-40 object-contain opacity-30 hover:opacity-80" src="../businesses/3.png" alt="" />
+					<img class="w-40 object-contain opacity-30 hover:opacity-80" src="../businesses/4.png" alt="" />
+					<img class="w-40 object-contain opacity-30 hover:opacity-80" src="../businesses/5.png" alt="" />
+					<img class="w-40 object-contain opacity-30 hover:opacity-80" src="../businesses/6.png" alt="" />
+					<img class="w-40 object-contain opacity-30 hover:opacity-80" src="../businesses/7.png" alt="" />
+					<img class="w-40 object-contain opacity-30 hover:opacity-80" src="../businesses/8.png" alt="" />
+				</div>
+			</div>
+		</section>
+		<!-- mid section -->
+		<section>
+			<div class="container mx-auto flex flex-col gap-12 mt-8">
+				<!-- card 1 -->
+				<article class="flex flex-col sm:flex-row justify-center items-center">
+					<!-- left -->
+					<div class="text-center w-fit sm:w-1/3">
+						<h3 class="text-3xl font-bold lg:h3">
+							Automate orders from social media.
+						</h3>
+						<p class="mt-6 text-xl">
+							Managing orders is now easier than ever. No more
+							replying to DMs. Don't miss out on orders from
+							customers.
+						</p>
+					</div>
+					<!-- right -->
+					<div class="w-1/3">
+						<img src="../images/2-2.png" alt="" />
+					</div>
+				</article>
+				<!-- card 2 -->
+				<article class="flex flex-col sm:flex-row justify-center items-center">
+					<!-- left -->
+					<div class="w-1/3">
+						<img src="../images/1-2.png" alt="" />
+					</div>
+					<!-- right -->
+
+					<div class="text-center w-fit sm:w-1/3">
+						<h3 class="text-3xl font-bold lg:h3">
+							Simple to set up. Impossible to mess up.
+						</h3>
+						<p class="mt-6 text-xl">
+							No learning curve. Gorgeous. Blazingly fast. And
+							comes with all the features you need.
+						</p>
+					</div>
+				</article>
+				<!-- card 3  -->
+				<article class="flex flex-col sm:flex-row justify-center items-center">
+					<!-- left -->
+					<div class="text-center w-fit sm:w-1/3">
+						<h3 class="text-3xl font-bold lg:h3">Accept all kinds of payments.</h3>
+						<p class="mt-6 text-xl">
+							Automatically collect payments by credit and
+							debit card, bank transfer, Venmo, PayNow, GCash,
+							and more.
+						</p>
+					</div>
+					<!-- right -->
+					<div class="w-1/3">
+						<img src="../images/payments.png" alt="" />
+					</div>
+				</article>
+				<div class="flex justify-center">
+					<div class="sub-btn-wrapper">
+						<button class="sub-btn max-w-xs">
+							Sign up for free
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- reviews section -->
+		<section class="mt-2">
+			<div class="container">
+
+			</div>
+		</section>
+		<!-- FAQ section -->
+		<section class="pt-6 section-faq">
+			<div class="container mx-auto max-w-3xl">
+				<h1 class="text-3xl font-bold lg:h2 text-center">FAQS</h1>
+
+				<div class="faq-container">
+					<article>
+						<div class="faq-title">
+							<span class="font-bold text-xl">How much does it cost?</span>
+							<i class="fa-solid fa-circle-plus faq-ico"></i>
+						</div>
+						<!-- dropdown faq -->
+						<div class="content-box faq-content">
+							<p>
+								Cococart is free for small businesses! You can
+								buy optional upgrades if you want to support us.
+								<br />
+								<br />
+								The free version of Cococart already gives you
+								more than any other ecommerce platform, but we
+								help you take online business even further with
+								our paid plans.
+							</p>
+						</div>
+					</article>
+					<article>
+						<div class="faq-title">
+							<span class="font-bold text-xl">Where do my orders go?</span>
+							<i class="fa-solid fa-circle-plus faq-ico"></i>
+						</div>
+						<!-- dropdown faq -->
+						<div class="content-box faq-content">
+							<p>
+								Cococart is free for small businesses! You can
+								buy optional upgrades if you want to support us.
+								<br />
+								<br />
+								The free version of Cococart already gives you
+								more than any other ecommerce platform, but we
+								help you take online business even further with
+								our paid plans.
+							</p>
+						</div>
+					</article>
+					<article>
+						<div class="faq-title">
+							<span class="font-bold text-xl">How do I receive payments?</span>
+							<i class="fa-solid fa-circle-plus faq-ico"></i>
+						</div>
+						<!-- dropdown faq -->
+						<div class="content-box faq-content">
+							<p>
+								Cococart is free for small businesses! You can
+								buy optional upgrades if you want to support us.
+								<br />
+								<br />
+								The free version of Cococart already gives you
+								more than any other ecommerce platform, but we
+								help you take online business even further with
+								our paid plans.
+							</p>
+						</div>
+					</article>
+					<article>
+						<div class="faq-title">
+							<span class="font-bold text-xl">What fees are there?</span>
+							<i class="fa-solid fa-circle-plus faq-ico"></i>
+						</div>
+						<!-- dropdown faq -->
+						<div class="content-box faq-content">
+							<p>
+								Cococart is free for small businesses! You can
+								buy optional upgrades if you want to support us.
+								<br />
+								<br />
+								The free version of Cococart already gives you
+								more than any other ecommerce platform, but we
+								help you take online business even further with
+								our paid plans.
+							</p>
+						</div>
+					</article>
+					<article>
+						<div class="faq-title">
+							<span class="font-bold text-xl">How long does it take to get set up?</span>
+							<i class="fa-solid fa-circle-plus faq-ico"></i>
+						</div>
+						<!-- dropdown faq -->
+						<div class="content-box faq-content">
+							<p>
+								Cococart is free for small businesses! You can
+								buy optional upgrades if you want to support us.
+								<br />
+								<br />
+								The free version of Cococart already gives you
+								more than any other ecommerce platform, but we
+								help you take online business even further with
+								our paid plans.
+							</p>
+						</div>
+					</article>
+
+				</div>
+			</div>
+		</section>
+		<!-- features section -->
+		<section class="mt-32 ">
+			<div class="max-w-3xl mx-auto">
+				<h2 class="text-3xl font-bold lg:h2 text-center ">Start a business in minutes. Not months.</h2>
+				<div class="flex flex-col sm:flex-row text-center gap-6 items-center justify-around mt-8">
+					<article>
+						<div class="space-6 leading-8 flex flex-col items-center justify-center gap-8">
+							<div class="text-6xl p-8  border-[0.25rem] border-black rounded-3xl w-fit">⚡️</div>
+							<h6 class="text-xl font-bold">Step 1 </h6>
+							<p class=" text-xl">Choose a unique link for your shop <code
+									class="bg-gray-200 p-2">name.cococart.co</code> </p>
+						</div>
+					</article>
+
+					<article>
+						<div class="space-6 leading-8 flex flex-col items-center justify-center gap-8">
+							<div class="text-6xl p-8  border-[0.25rem] border-black rounded-3xl w-fit">🖼</div>
+							<h6 class="text-xl font-bold">Step 2 </h6>
+							<p class=" text-xl">Add your products, delivery and payment methods.</p>
+						</div>
+					</article>
+
+					<article>
+						<div class=" leading-8 flex flex-col items-center justify-center gap-8 p-8">
+							<div class="text-6xl p-8  border-[0.25rem] border-black rounded-3xl w-fit">🎉</div>
+							<h6 class="text-xl font-bold">Step 3 </h6>
+							<p class=" text-xl">Share your URL on your social media and earn money! </p>
+						</div>
+					</article>
+
+
+				</div>
+			</div>
+		</section>
+		<!-- prizing section -->
+		<section class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-32xl mx-auto ">
+			<div class=" text-lg font-semibold text-center">
+				<article
+					class="bg-[#FFBC00] px-4 py-8 border-[0.25rem] border-solid rounded-3xl border-black space-y-4">
+					<p>Free plan</p>
+					<h1 class="h1">$0/mo</h1>
+					<p>Zero introductory fees</p>
+					<div class="sub-btn-wrapper w-fit mx-auto">
+						<button class="sub-btn  ">
+							START NOW
+						</button>
+					</div>
+				</article>
+			</div>
+
+			<div class=" text-lg font-semibold text-center">
+				<article class="bg-white px-4 py-8 border-[0.25rem] border-solid rounded-3xl border-black space-y-4">
+					<p>Premium</p>
+					<h1 class=" text-[#FFBC00] font-bold text-7xl ">$5/mo</h1>
+					<p>Starting from</p>
+					<div class="sub-btn-wrapper w-fit mx-auto">
+						<button class="sub-btn  ">
+							PRICING
+						</button>
+					</div>
+				</article>
+			</div>
+
+
+		</section>
+	</main>
+	<footer class="bg-[#FFBC00] mt-52 flex flex-col-reverse sm:flex-row items-center justify-center gap-12 py-12">
+		<!-- left -->
+		<article class="space-y-4 p-4 text-2xl max-w-sm">
+			<img class="w-56  "
+				src="https://uploads-ssl.webflow.com/60f35132d5febb6f03ec9d7a/637a3904e86a45e79e450a65_COCOCART_WORDMARK_BLACKANDWHITE.svg"
+				alt="" />
+			<p>Simple, beautiful shops for pretty much anything.</p>
+
+			<select class="bg-[#FFBC00] font-semibold text-sm">
+				<option value="">-English</option>
+				<option value="">-Espanol</option>
+			</select>
+
+		</article>
+		<!-- right -->
+		<article class="space-y-8 ">
+			<div class="flex flex-col items-center justify-start sm:flex-row flex-grow-1  gap-12  font-light ">
+
+				<ul class="space-y-4">
+					<text-3xl font-bold lg: class="font-semibold">Product</text-3xl>
+					<li>Home</li>
+					<li>pricing</li>
+					<li>Content</li>
+					<li>Deals</li>
+				</ul>
+
+				<ul class="space-y-4">
+					<h3 class="font-semibold">Product</h3>
+					<li>Home</li>
+					<li>pricing</li>
+					<li>Content</li>
+					<li>Deals</li>
+				</ul>
+
+				<ul class="space-y-4">
+					<h3 class="font-semibold">Product</h3>
+					<li>Home</li>
+					<li>pricing</li>
+					<li>Content</li>
+					<li>Deals</li>
+				</ul>
+
+				<ul class="space-y-4">
+					<h3 class="font-semibold">Product</h3>
+					<li>Home</li>
+					<li>pricing</li>
+					<li>Content</li>
+					<li>Deals</li>
+				</ul>
+
+			</div>
+		</article>
+	</footer>
+	<script src="app.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+
+</html>
