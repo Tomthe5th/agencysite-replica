@@ -142,7 +142,8 @@
   </header>
   <main class="flex ">
 
-    <aside class=" w-1/6 h-[90vh] shadow-md py-4 px-4 hidden dark:bg-gray-800 dark:text-gray-300 " id="navbar-hamburger">
+    <aside class=" w-1/6 h-[90vh] shadow-md py-4 px-4 hidden dark:bg-gray-800 dark:text-gray-300 "
+      id="navbar-hamburger">
       <ul id="accordion-collapse" data-accordion="collapse"
         class="flex-col items-center justify-center space-y-2 border-b border-b-black py-4 ">
         <li><a href="#">Dashboard</a> </li>
@@ -268,7 +269,7 @@
     </aside>
 
     <!-- dashboard -->
-    <aside class="mt-4 w-full flex flex-col">
+    <aside class="mt-4 w-full">
       <section class="p-4 flex flex-col justify-center gap-4">
         <h2 class="text-center">Dashboard</h2>
         <div class="container  flex items-center justify-around gap-4">
@@ -371,13 +372,13 @@
         </div>
       </section>
       <!-- chart -->
-      <section class="mt-4">
+      <section class="mt-4 w-full flex flex-col justify-center items-center ">
         <h3>Product chart</h3>
-        <div class="w-full"><canvas id="chart-product"></canvas></div>
-      </section> 
+        <div class="w-[800px]"><canvas id="chart-product"></canvas></div>
+      </section>
     </aside>
 
-  
+
 
 
   </main>
